@@ -1,0 +1,140 @@
+/* import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400;500;600;700;800&family=Josefin+Sans:wght@300;500;600;700&family=Poppins&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400;500;600;700;800&family=Mulish:wght@300;400;500;600;700&family=Poppins&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap');
+
+
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'mulish';
+}
+
+
+.container{
+    max-width: 1296px !important;
+}
+.contact-main{
+    background: url(./assets/icons/top.png);
+    padding: 150px;
+}
+.contact-main h2{
+    font-size: 38px;
+    font-weight: 700;
+    font-family: Josefin Sans;
+    color: white;
+}
+.contact-main h5{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: mulish;
+    color: white;
+}
+
+
+/* About Section */
+.p-content h6{
+    font-size: 18px;
+    font-weight: 600;
+    color: #666666;
+}
+
+.p-content h1{
+    font-size: 38px;
+    font-family: 'josefin sans';
+    font-weight: 700;
+    color: #4A274F;
+}
+
+.ip{
+    display: flex;
+    align-items: flex-start;
+}
+
+.para p{
+    font-size: 18px;
+    color: #666666;
+    font-weight: 600;
+    padding: 10px 15px;
+}
+
+.content{
+    display: flex;
+    margin: 5px 0;
+}
+
+.para{
+    margin: 20px 0px;
+}
+
+.all-para{
+    padding: 0 50px;
+}
+
+.logo{
+    color: #666666;
+    margin-top: 18px;
+}
+
+.about{
+    margin: 100px 0;
+}
+
+.para h4{
+    color: #4A274F;
+    font-size: 24px;
+    font-family: 'josefin sans';
+    font-weight: 700;
+    position: relative;
+}
+
+.para h4::before{
+    content: '';
+    position: absolute;
+    top: 115%;
+    left: 0;
+    width: 7%;
+    border-bottom: 3px solid #666666;
+
+}
+
+/* footer section */
+.footer{
+    padding: 70px 0 0;
+    background: #262326;
+}
+.footer .row{
+    padding-bottom: 50px;
+}
+.footer h4{
+    color: white;
+}
+.footer p{
+    color: #666666;
+    padding: 20px 0;
+}
+.footer .icon-list a{
+    display: block;
+    text-decoration: none !important;
+    color: #666666;
+    padding: 10px 0;
+    font-size: 16px;
+    font-family: mulish;
+    font-weight: 600;
+}
+.footer .icon-list a img{
+    padding-right: 10px;
+}
+.footer .terms{
+    padding: 20px 0;
+    border-top: 1px solid #FFFFFF30;
+}
+.footer .terms a{
+    text-decoration: none !important;
+    color: #666666;
+    padding-right: 20px;
+    font-size: 16px;
+    font-family: mulish;
+    font-weight: 600;
+}

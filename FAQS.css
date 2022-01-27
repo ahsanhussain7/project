@@ -1,0 +1,175 @@
+/* import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400;500;600;700;800&family=Josefin+Sans:wght@300;500;600;700&family=Poppins&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400;500;600;700;800&family=Mulish:wght@300;400;500;600;700&family=Poppins&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap');
+
+
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'mulish';
+}
+
+.container{
+    max-width: 1296px !important;
+}
+.contact-main{
+    background: url(./assets/icons/top.png);
+    padding: 150px;
+}
+.contact-main h2{
+    font-size: 38px;
+    font-weight: 700;
+    font-family: Josefin Sans;
+    color: white;
+}
+.contact-main h5{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: mulish;
+    color: white;
+}
+
+
+/* FAQS SECTION */
+.faqs{
+    margin: 100px 0;
+}
+
+.row{
+    margin: 0;
+}
+
+/* FAQs Section */
+
+.accordion{
+    max-width: 600px;
+    display: block;
+    margin: 100px auto;
+}
+
+.accordion .crd{
+    margin-bottom: 20px;
+    float: right;
+    width: 125%;
+}
+
+.accordion .crd .crd-hdr h3{
+    cursor: pointer;
+    color: #fff;
+    position: relative;
+    background-color: #fff;
+    margin: 0;
+    padding: 15px 20px;
+    font-size: 22px;
+    font-family: "josefin sans";
+    font-weight: 700;
+    color: #4A274F;
+}
+
+.accordion .crd .crd-hdr{
+    box-shadow: 0px 12px 40px rgba(0, 0, 0, 0.12);
+    position: relative;
+}
+
+.accordion .crd .crd-hdr span{
+    position: absolute;
+    right: 20px;
+    top: 12px;
+    height: 25px;
+    width: 25px;
+    color: #444444;
+    background-color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 25px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.accordion .crd .crd-bdy{
+    padding: 20px;
+}
+
+.accordion .crd .crd-bdy{
+    display: none;
+}
+
+/* open one card by default */
+/* .accordion .crd .crd-bdy{ */
+    /* display: block; */
+/* } */
+
+.accordion .crd .crd-bdy p{
+    font-size: 15px;
+    line-height: 24px;
+    color: #444444;
+    margin: 0px;
+}
+
+.text-center{
+    color: #4A274F;
+    font-size: 30px;
+    font-family: 'josefin sans';
+    padding: 3rem 0;
+}
+
+.box{
+    height: 400px;
+    width: 500px;
+    /* border: 1px solid red; */
+    flex-direction: column;
+    align-items: start;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 992px) {
+    .box {
+        width: 66%;
+        height: 0px;
+        margin-top: 150px;
+    }
+  }
+
+
+  
+/* footer section */
+.footer{
+    padding: 70px 0 0;
+    background: #262326;
+}
+.footer .row{
+    padding-bottom: 50px;
+}
+.footer h4{
+    color: white;
+}
+.footer p{
+    color: #666666;
+    padding: 20px 0;
+}
+.footer .icon-list a{
+    display: block;
+    text-decoration: none !important;
+    color: #666666;
+    padding: 10px 0;
+    font-size: 16px;
+    font-family: mulish;
+    font-weight: 600;
+}
+.footer .icon-list a img{
+    padding-right: 10px;
+}
+.footer .terms{
+    padding: 20px 0;
+    border-top: 1px solid #FFFFFF30;
+}
+.footer .terms a{
+    text-decoration: none !important;
+    color: #666666;
+    padding-right: 20px;
+    font-size: 16px;
+    font-family: mulish;
+    font-weight: 600;
+}
